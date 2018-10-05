@@ -1,0 +1,316 @@
+<html>
+<head>
+  <title>Dash board</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!--<link rel="style" href="css/bootstrap-theme.min.css"> 
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>-->
+  <link rel ="stylesheet" href="css/bootstrap.min.css"> 
+   
+    
+    <link rel="stylesheet"href="css/dash.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <link rel="stylesheet" href="https://fontawesome.com/icons?d=gallery&q=dots">
+<link rel="stylesheet" href="register.html">
+    <link rel="stylesheet" href="login.html">
+     <link rel="stylesheet" href="personal.html">
+      <style>
+    *
+{
+    font-family:cursive;
+        }
+    </style>
+</head>
+
+
+<body>
+    
+    
+    
+ 
+
+
+<body class="home">
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
+                <div class="logo">
+                    <a hef="#">
+                        <h4>User Dashboard</h4>
+                    </a>
+                    <img src="images/user2.jpg">
+                </div>
+                <div class="navi">
+                    <ul>
+                         <li class="active"><a href="personal.html"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">personal details</span></a></li>
+                        
+                             <li class="dropdown">
+                                <a class="dropdown-toggle ba" data-toggle="dropdown" href="#" ><i class="fa fa-tasks" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Services</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="catering.html"class="ca">Catering </a></li>
+              
+            <li><a href="health.html"class="ca" >Health</a></li>
+               <li><a href="wifi1.html"class="ca">Wifi</a></li>
+              <li><a href="lockers.html"class="ca">Lockers</a></li>
+               
+          </ul>
+        </li>
+                    
+                        <li><a href="acc.html"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Account details</span></a></li>
+                       <li><a href="dash.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Get Hostels</span></a></li>
+                        <li><a href="setting.html"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">account setting</span></a></li>
+                        <li><a href="login.html"><i class="fa fa-" aria-hidden="true"></i><span class="hidden-xs hidden-sm">log out</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <!--<button type="button" class="slide-toggle">Slide Toggle</button> -->
+                <div class="row">
+                    <header>
+                        <div class="col-md-7">
+                            <nav class="navbar-default pull-left">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas" data-target="#side-menu" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                            </nav>
+                           
+                        </div>
+                        <div class="col-md-5">
+                            <div class="header-rightside">
+                                <ul class="list-inline header-top pull-right">
+                                        <li class="hidden-xs"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" style="color:white; background-color:#010e01; border-radius:4%;" > complaints</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Feed Back</h4>
+      </div>
+      <div class="modal-body">
+          <p> post a complaint</p>
+          <input>
+
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-default" data-dismiss="modal" style="color:white; background:green; border-radius:4%;" >send</button>
+          <button type="submit" class="btn btn-default" data-dismiss="modal" style="color:white; background:green; border-radius:4%;" >cancel</button>
+      </div>
+    </div>
+
+  </div>
+</div></li> <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                  <li>
+                                        <a href="#" class="icon-info">
+                                            <i class="fa fa-bell" aria-hidden="true"></i>
+                                            <span class="label label-primary">9</span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/user.jpg" alt="user">
+                                            <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="navbar-content">
+                                                    <span>User Name</span>
+                                                    <p class="text-muted small">
+                                                        xxx.xxxx@gmail.com
+                                                    </p>
+                                                    <div class="divider">
+                                                    </div>
+                                                    <a href="#" class="view btn-sm active">View Profile</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                </div>    <div class="clearfix"> </div>
+                
+                
+                
+                
+          
+                
+                
+                
+                
+                
+                
+                
+                
+    <div class=" ga">
+    
+                           
+        <div class="container-fluid raj">
+  
+    
+            <center><h1 style="color:black;font-family:serif;">Welcome To Le Foyer Hostels</h1></center>
+    
+           
+        
+    
+    </div>
+    
+
+    
+    
+   
+    
+    <br>
+        <br>
+    
+    
+    
+    <div class="container">
+     <div class="col-md-2">
+        
+        
+        
+        
+        </div>
+    <div class="col-md-7" target="#private">  
+        <div class="row mega" style="margin-top: 6px;">
+           <div class="col-md-6 raju">
+               
+               <img src="images/hostel3.jpg"width="250px" height="250px">
+               
+               
+            </div>
+             <div class="col-md-5">
+             <h2 style="color:black; margin-bottom: 6px;">HOSTEL 1</h2>
+            <p><i class="fa fa-address-card"></i> near mytrivanam ameerpet opposite to lara tech</p>
+            <p><i class=" fa fa-mobile"></i> 9450932044 </p>   
+                 <p>extra facilities</p>
+                 <div class="row">
+                     <div class="col-md-6">
+                         <p> <i class="fa fa-wifi"> wifi </i></p></div><div class="col-md-6"><p><i class="fa fa-fire"> hotwater</i> </p></div></div>
+                 <div class="row">
+                     <div class="col-md-6">
+                         <p><i class="fa fa-tv"> TV in every room</i></p>
+                     </div><div class="col-md-6"> AC/non-AC</div></div>
+            </div>
+            <div class="col-md-1">
+           <a href="hostel11.html" class="btn btn-info" role="button">BOOK NOW</a>
+            
+            </div>
+        </div><br>
+        <div class="row mega" target="#two">
+        
+           <div class="col-md-6">
+               <img src="images/hostel2.jpg" width="250px" height="250px">
+               
+            </div>
+               <div class="col-md-5">
+             <h2 style="color:black; margin-bottom: 6px;">HOSTEL 2</h2>
+            <p><i class="fa fa-address-card"></i> near sr nagar  opposite to andra bank</p>
+            <p><i class=" fa fa-mobile"></i> 9342564045 </p>   
+                 <p>extra facilities</p>
+                 <div class="row">
+                     <div class="col-md-6">
+                         <p> <i class="fa fa-wifi"> wifi </i></p></div><div class="col-md-6"><p><i class="fa fa-fire"> hotwater</i> </p></div></div>
+                 <div class="row">
+                     <div class="col-md-6">
+                         <p><i class="fa fa-tv"> TV </i></p>
+                     </div><div class="col-md-6"> AC/non-AC</div></div>
+            </div>
+            <div class="col-md-1">
+            <a href="hostel12.html" class="btn btn-info" role="button">BOOK NOW</a>
+            
+            </div>
+        </div>
+      <br>
+        <div class="row mega">
+        
+           <div class="col-md-6">
+            <img src="images/hostel1.jpg"width="250px" height="250px">
+            </div>
+        <div class="col-md-5">
+             <h2 style="color:black; margin-bottom: 6px;">HOSTEL 3</h2>
+            <p><i class="fa fa-address-card"></i> near madhapur petrol bunk opposite to hdfc bank madhapur</p>
+            <p><i class=" fa fa-mobile"></i> 6790564835 </p>   
+                 <p>extra facilities</p>
+                 <div class="row">
+                     <div class="col-md-6">
+                         <p> <i class="fa fa-wifi"> wifi </i></p></div><div class="col-md-6"><p><i class="fa fa-fire"> hotwater</i> </p></div></div>
+                 <div class="row">
+                     <div class="col-md-6">
+                         <p><i class="fa fa-tv"> TV </i></p></div><div class="col-md-6"><i class="fa fa-book"></i>study room</div>
+            </div>
+            </div>
+            <div class="col-md-1">
+           <a href="hostel13.html" class="btn btn-info" role="button">BOOK NOW</a>
+            
+            </div>
+        </div><br>
+        <div class="row mega">
+           <div class="col-md-6">
+            <img src="images/hostel4.jpg" width="250px" height="250px">
+               
+            </div>
+             <div class="col-md-5">
+             <h2 style="color:black; margin-bottom: 6px;">HOSTEL 4 </h2>
+            <p><i class="fa fa-address-card"></i> gachibowli near sherlingampally x road</p>
+            <p><i class=" fa fa-mobile"></i> 894057389 </p>   
+                 <p>extra facilities</p>
+                 <div class="row">
+                     <div class="col-md-6">
+                         <p> <i class="fa fa-wifi"> wifi </i></p></div><div class="col-md-6"><p><i class="fa fa-fire"> hotwater</i> </p></div></div>
+                 <div class="row">
+                     <div class="col-md-6">
+                         <p><i class="fa fa-tv"> TV in every room</i></p>
+                     </div><div class="col-md-6"> AC/non-AC rooms</div></div>
+            </div>
+            <div class="col-md-1">
+            <a href="hostel14.html" class="btn btn-info" role="button">BOOK NOW</a>
+            
+            </div>
+        
+        </div>
+       </div>
+    <div class="col-md-1"></div>
+        <div class="col-md-2">
+     
+             <div class="row coll">
+            <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#demo6" style="    width: 157px;
+    margin-top: 11px;">Maintanance <span class="caret"></span></button>
+  <div id="demo6" class="collapse">
+<div class="form-group">
+    <label for="type of rooms" style="color: rgba(82, 93, 241, 1);">Maintanance</label>
+    <select class="form-control" id="type of food">
+        <option>Cleaning</option>
+      <option >Washing</option>
+         <option >Wifi</option>
+         <option >Health</option>
+        
+      
+   
+    
+    </select>
+      </div>
+                 </div></div></div></div></div>
+          
+            
+         <script>
+$(document).ready(function(){
+   $('[data-toggle="offcanvas"]').click(function(){
+       $("#navigation").toggleClass("hidden-xs");
+   });
+});
+</script>

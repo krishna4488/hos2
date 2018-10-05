@@ -1,0 +1,357 @@
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!--<link rel="style" href="css/bootstrap-theme.min.css"> 
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>-->
+  <link rel ="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet"href="css/project2.css">
+    <link rel="stylesheet"href="css/dash.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <link rel="stylesheet" href="https://fontawesome.com/icons?d=gallery&q=dots">
+<link rel="stylesheet" href="register.html">
+    <link rel="stylesheet" href="login.html">
+    <style>
+    *
+{
+    font-family:serif;
+        }</style>
+</head>
+
+
+<body>
+ 
+<body class="home">
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
+                <div class="logo">
+                    <a hef="home.html">
+                       <h4>User Dashboard</h4>
+                    </a>
+                    <img src="images/user2.jpg">
+                </div>
+                <div class="navi">
+                    <ul>
+                         <li><a href="personal.html"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">personal details</span></a></li>
+                      
+                            <li class="dropdown">
+                                <a class="dropdown-toggle ba" data-toggle="dropdown" href="#" ><i class="fa fa-tasks" aria-hidden="true"></i><span class="hidden-xs hidden-sm">services</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a href="catering.html"class="ca">Catering </a></li>
+            <li><a href="health.html"class="ca" >Health</a></li>
+               <li><a href="wifi1.html"class="ca">Wifi</a></li>
+              <li><a href="lockers.html"class="ca">Lockers</a></li>
+          </ul>
+        </li>
+                    
+                        <li class="active"><a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Account details</span></a></li>
+                         <li><a href="dash.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Get Hostels</span></a></li>
+                        <li><a href="setting.html"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">account setting</span></a></li>
+                        <li><a href="login.html"><i class="fa fa-" aria-hidden="true"></i><span class="hidden-xs hidden-sm">log out</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <!--<button type="button" class="slide-toggle">Slide Toggle</button> -->
+                <div class="row">
+                    <header>
+                        <div class="col-md-7">
+                            <nav class="navbar-default pull-left">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas" data-target="#side-menu" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                            </nav>
+                           
+                        </div>
+                        <div class="col-md-5">
+                            <div class="header-rightside">
+                                <ul class="list-inline header-top pull-right">
+                                         <li class="hidden-xs"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" style="color:white; background:#010e01;" > complaints</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">complaint box</h4>
+      </div>
+      <div class="modal-body">
+                <p> post a complaint</p>
+          <input>
+
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-default" data-dismiss="modal" style="color:white; background:green;" >send</button>
+          <button type="submit" class="btn btn-default" data-dismiss="modal" style="color:white; background:green;" >cancel</button>
+      </div>
+    </div>
+
+  </div>
+</div></li>  <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                    <li>
+                                        <a href="#" class="icon-info">
+                                            <i class="fa fa-bell" aria-hidden="true"></i>
+                                            <span class="label label-primary">3</span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/user.jpg" alt="user">
+                                            <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="navbar-content">
+                                                    <span>User</span>
+                                                    <p class="text-muted small">
+                                                        ccc.xxx@.com
+                                                    </p>
+                                                    <div class="divider">
+                                                    </div>
+                                                    <a href="main" class="view btn-sm active">View Profile</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                </div>    <div class="clearfix"> </div>
+ 
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-9">
+			<h1>
+				User1
+			</h1>
+			<p>
+			 ccc.xxxx@gmail.com
+			</p>
+			    <h3>
+			       your acccount details
+			    </h3>
+			<table class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th>
+							s/no
+						</th>
+						<th>
+							Check in Date
+						</th>
+						<th>
+							Check out Date
+						</th>
+						<th>
+						   hostel/ Area
+						</th>
+						<th>
+						     paid
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							1
+						</td>
+						<td>
+							03/04/2018
+						</td>
+						<td>
+							03/05/2018
+						</td>
+						<td>
+				     			manjo hostel ameerpet
+						</td>
+						<td>
+						    3128.00
+						 </td>
+					</tr>
+					<tr class="active">
+						<td>
+							2
+						</td>
+						<td>
+							03/05/2018
+						</td>
+						<td>
+				              03/06/2018
+						</td>
+						<td>
+							manjo hostel ameerpet
+						</td>
+						<td>
+						     3128.50
+						 </td>
+					</tr>
+					<tr class="success">
+						<td>
+							3
+						</td>
+						<td>
+							03/07/2018
+						</td>
+						<td>
+						    13/07/2018
+						</td>
+						<td>
+							inku reddy hostel hitech city
+						</td>
+						<td>
+						    1188.50
+						 </td>
+					</tr>
+                    	</tbody>
+			<thead>
+					<tr>
+						<th>
+							s/no
+						</th>
+						<th>
+							Catring order on
+						</th>
+						<th>
+							no of people
+						</th>
+						<th>
+						    Area
+						</th>
+						<th>
+						     paid
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="active">
+						<td>
+							1
+						</td>
+						<td>
+							15/07/2018
+						</td>
+						<td>
+							250
+						</td>
+						<td>
+				     			secunderabad
+						</td>
+						<td>
+						    13128.00
+						 </td>
+					</tr>
+                    	<tr class="success">
+						<td>
+							2
+						</td>
+						<td>
+							17/07/2018
+						</td>
+						<td>
+							150
+						</td>
+						<td>
+				     			begumpet
+						</td>
+						<td>
+						    9128.00
+						 </td>
+					</tr>
+				</tbody>
+                
+                	<thead>
+					<tr class="active">
+						<th>
+							s/no
+						</th>
+						<th>
+							medicene order on
+						</th>
+						<th>
+							medicen name
+						</th>
+						<th>
+						       delevery Area
+						</th>
+						<th>
+						     paid
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr >
+						<td>
+							1
+						</td>
+						<td>
+							15/07/2018
+						</td>
+						<td>
+							<ul>
+                            <li>asdhxj</li>
+                                <li>asdhxj</li>
+                                <li>asdhxj</li>
+                            </ul>
+						</td>
+						<td>
+				     			secunderabad
+						</td>
+						<td>
+						    128.00
+						 </td>
+					</tr>
+                    	<tr class="success">
+						<td>
+							2
+						</td>
+						<td>
+							31/08/2018
+						</td>
+						<td>
+							<ul>
+                            <li>asdhxj</li>
+                                <li>asdhxj</li>
+                                <li>asdhxj</li>
+                            </ul>
+						</td>
+						<td>
+				     			begumpet
+						</td>
+						<td>
+						    918.00
+						 </td>
+					</tr>
+				</tbody>
+                
+                
+                
+			</table>
+            </div>
+           
+			<div class="row">
+				<div class="col-md-12">
+					<p>
+						 <a class="logout" href="login.html">Login</a>
+					</p>
+					<p>
+						<a class="logout" href="setting.html">Logout</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

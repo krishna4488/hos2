@@ -1,0 +1,258 @@
+*
+{
+    font-size:12px;
+    font-style:normal;
+    font-family: cursive;
+    
+}.navbar
+{
+    
+    margin-top:25px;
+    margin-left:40px;
+}
+.navbar ul li
+{
+    text-decoration:none;
+    display:inline;
+    padding:0px;
+word-spacing:8px;
+    font-size: 26px;
+    
+}
+.navbar a
+{
+    
+   padding:8px;
+    
+    
+}
+
+
+.re
+{
+    font-size: 10px;
+    font-family: cursive;
+    font-style:normall;
+    color:black;
+}
+.re1
+{
+    
+}
+h5
+{
+    color: black;
+}
+
+.dr
+{
+    text-align: center;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    background-color: olivedrab;
+}
+.logo:hover
+{
+ padding:10px; 
+    
+}
+.header
+{
+    margin-top:15px;
+}
+.banner
+{
+    margin-bottom: 30px;
+   
+}
+.carousel-caption
+{
+  margin-bottom: 150px;  
+}
+
+.background
+{
+    text-align:center;
+}
+
+.productcatagories
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bo
+{
+    background-color: black;
+    color:white;
+    padding:10px;
+    text-align: center;
+    
+    
+}
+
+
+.row u
+{
+    padding:20px;
+    
+    
+}
+.dis
+{
+    display:inline;
+    float:left;
+   
+}
+
+
+.fo
+{
+  margin-top: 40px;
+    margin-bottom: 40px;
+        background:url(../images/bg2.jpg)no-repeat;
+    display: inline-block;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:50px;
+    width:100%;
+    height:100%;
+    color:white;
+}
+
+.footer1
+{
+    margin-bottom: 40px;
+}
+
+.u
+{
+    margin-bottom: 20px;
+}
+.ar:hover
+{
+ padding: 10px;   
+    
+}
+
+.slideanim img:hover
+{
+ border:solid 2px black;   
+}
+.do
+{
+      margin-top: 40px;
+    margin-bottom: 40px;
+        background:url(../images/bg2.jpg)no-repeat;
+    display: inline-block;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:50px;
+    width:100%;
+    height:100%;
+    color:white;
+}
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+.middle
+{
+    margin-bottom: 40px;
+}
+.team-social
+{
+    padding:10px;
+}
+
+.inner-team1:hover{
+    background-color: lightgray;
+}
+.middle
+{
+    margin-bottom: 40px;
+}
+.inner-team1
+{
+    border:solid 2px lightgray;
+    text-align: center;
+    padding:20px;
+   
+}
+.products
+{
+    text-align:center;
+    margin-bottom: 40px;
+}
+
+.raj
+{
+        
+  
+    background:url(../images/banner2.jpg)no-repeat;
+    display: inline-block;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:200px;
+    width:100%;
+    height:100%;
+ 
+margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+

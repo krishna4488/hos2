@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" >
+<html>
+<head>
+  <title>Dash board</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!--<link rel="style" href="css/bootstrap-theme.min.css"> 
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>-->
+  <link rel ="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet"href="css/project2.css">
+       <link rel="stylesheet"href="css/manta.css">
+     <link rel="stylesheet" href="css/dash.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <link rel="stylesheet" href="https://fontawesome.com/icons?d=gallery&q=dots">
+<link rel="stylesheet" href="register.html">
+    <link rel="stylesheet" href="login.html">
+      <style>
+    *
+{
+    font-family:serif;
+        }</style>
+</head>
+
+
+<body>
+ 
+
+ <body class="home">
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
+                
+                <div class="logo">
+                    <a hef="home.html">
+                        <p> User Dashboard</p>
+                    </a>
+                    <img src="images/user2.jpg">
+                </div>
+                <div class="navi">
+                    <ul>
+                        <li><a href="personal.html"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">personal details</span></a></li>
+                      
+                            <li class="dropdown">
+                                <a class="dropdown-toggle ba active" data-toggle="dropdown" href="#" ><i class="fa fa-tasks" aria-hidden="true"></i><span class="hidden-xs hidden-sm ">services</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+             <li><a href="catering.html"class="ca">Catering </a></li>
+            <li><a href="health.html"class="ca" >Health</a></li>
+               <li><a href="wifi1.html"class="ca">Wifi</a></li>
+              <li><a href="lockers.html"class="ca">Lockers</a></li>
+          </ul>
+        </li>
+                    
+                        <li><a href="acc.html" ><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Account details</span></a></li>
+                          <li ><a href="dash.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Get Hostels</span></a></li>
+                        <li class="active"><a href="#"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">account setting</span></a></li>
+                        <li><a href="login.html"><i class="fa fa-logout" aria-hidden="true"></i><span class="hidden-xs hidden-sm">log out</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <!--<button type="button" class="slide-toggle">Slide Toggle</button> -->
+                <div class="row">
+                    <header>
+                        <div class="col-md-7">
+                            <nav class="navbar-default pull-left">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas" data-target="#side-menu" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                            </nav>
+                           
+                        </div>
+                        <div class="col-md-5">
+                            <div class="header-rightside">
+                                <ul class="list-inline header-top ">
+                                    <li class="hidden-xs"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" style="color:white; background:#010e01;" > complaints</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">complaint box</h4>
+      </div>
+      <div class="modal-body">
+                <p> post a complaint</p>
+          <input>
+
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-default" data-dismiss="modal" style="color:white; background:green" >send</button>
+           <button type="submit" class="btn btn-default" data-dismiss="modal" style="color:white; background:green;" >cancel</button>
+      </div>
+    </div>
+
+  </div>
+</div></li>
+                                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                    <li>
+                                        <a href="#" class="icon-info">
+                                            <i class="fa fa-bell" aria-hidden="true"></i>
+                                            <span class="label label-primary">3</span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/user.jpg" alt="user">
+                                            <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="navbar-content">
+                                                    <span>User</span>
+                                                    <p class="text-muted small">
+                                                        xxx.xxx@gmail.com
+                                                    </p>
+                                                    <div class="divider">
+                                                    </div>
+                                                    <a href="main.html" class="view btn-sm active">View Profile</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                </div>    <div class="clearfix"> </div>            
+                
+                <div class="container">
+<form class="form-vertical">
+<fieldset>
+
+<!-- Form Name -->
+     <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo" style="width:50%;"> change password <span class="caret"></span></button>
+  <div id="demo" class="collapse">     
+<legend>Account setting</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Current password</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="pwd" placeholder="your current password " class="form-control input-md">
+  <span class="help-block"></span>  
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="passwordinput">new password</label>
+  <div class="col-md-4">
+    <input id="passwordinput" name="passwordinput" type="password" placeholder="new password" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="passwordinput">repeat password</label>
+  <div class="col-md-4">
+    <input id="passwordinput" name="passwordinput" type="password" placeholder="repeat password" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">set security question</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="1">Question 1</option>
+      <option value="2">Question 2</option>
+      <option value="3">Question 3</option>
+    </select>
+  </div>
+</div>
+
+<!-- Button -->
+      <div class="row">
+          <div class="col-md-8"></div>
+      <button class="btn btn-info" type="submit" style="color: white; box-shodowing:0px; margin-right:-30px;" > save change</button>
+</div>
+
+<!-- Button -->
+
+<!-- Multiple Checkboxes -->
+    </div>
+</fieldset>
+    </form>
+                <br>
+       <div class="clearfix"> </div>            
+                
+                <div class="container" style="margin-left:-17px;">
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+     <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#memo" style="width:50%;"> change email id <span class="caret"></span></button>
+  <div id="memo" class="collapse">     
+<legend>Account setting</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Current password</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="pwd" placeholder="your current password " class="form-control input-md">
+  <span class="help-block"></span>  
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="passwordinput">new e-mail-id</label>
+  <div class="col-md-4">
+    <input id="passwordinput" name="passwordinput" type="password" placeholder="new password" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="passwordinput">repeat e-mail-id</label>
+  <div class="col-md-4">
+    <input id="passwordinput" name="passwordinput" type="password" placeholder="repeat password" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">set security question</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="1">Question 1</option>
+      <option value="2">Question 2</option>
+      <option value="3">Question 3</option>
+    </select>
+  </div>
+</div>
+
+<!-- Button -->
+      <div class="row">
+          <div class="col-md-8"></div>
+      <button class="btn btn-info" type="submit" style="color: white; box-shodowing:0px; margin-right:-30px;" > save change</button>
+</div>
+
+<!-- Button -->
+
+<!-- Multiple Checkboxes -->
+    </div>
+</fieldset>
+    </form>          
+                
+                
+                
+             <div class="clearfix"> </div>            
+                <br>
+                <div class="container" style="margin-left:-17px;">
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+     <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#nemo" style="width:50%;"> privacy settings<span class="caret"></span></button>
+  <div id="nemo" class="collapse">     
+<legend>Account setting</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="checkboxes">Privacy settings</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="checkboxes-0">
+      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+      1. dont allow 
+    </label>
+    </div>
+  <div class="checkbox">
+    <label for="checkboxes-1">
+      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+      2. pay ments
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="checkboxes-2">
+      <input type="checkbox" name="checkboxes" id="checkboxes-2" value="3">
+      3. design
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="checkboxes-3">
+      <input type="checkbox" name="checkboxes" id="checkboxes-3" value="4">
+      4.amints
+    </label>
+	</div>
+  </div>
+</div>
+   <div class="row">
+          <div class="col-md-8"></div>
+      <button class="btn btn-info" type="submit" style="color: white; box-shodowing:0px; margin-right:-30px;" > save change</button>
+</div>
+<!-- Multiple Checkboxes -->
+    </div>
+</fieldset>
+    </form>    
+                </div></div></div></div>
+     </div>
+     </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                </body>
+                
+                             <script>
+$(document).ready(function(){
+   $('[data-toggle="offcanvas"]').click(function(){
+       $("#navigation").toggleClass("hidden-xs");
+   });
+});
+</script>
+    
+    </body></html>

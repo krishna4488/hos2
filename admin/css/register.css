@@ -1,0 +1,111 @@
+
+.a{
+	background-color:rgba(82, 93, 241, 1);
+	text-align:justify;
+	color:white;
+}
+.b{
+
+    
+    padding-left: 16px;
+}
+.c{
+             margin-top: 3px;
+    padding-left: 59px;
+    padding-right: 94px;
+    color: white
+}   
+  /*  head ends*/
+/*nav start*/
+.n{
+       margin-left: 90px;
+    margin-top: 12px;
+}
+.ca{
+  background-color: rgba(82, 93, 241, 1);
+    color: white;
+}
+.ca:hover{
+    color:rgba(82, 93, 241, 1);
+    background-color: transparent;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: TRANSPARENT;
+    
+}
+.na{
+  color: black;
+    margin-top: 2px;
+    margin-left: 252px;
+}
+.ba{
+    color:rgba(82, 93, 241, 1);
+}
+.ba:hover{
+    color:rgba(82, 93, 241, 1);
+    
+}
+.ba:active{
+    color:rgba(82, 93, 241, 1);
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color:black;
+    background-color: #fff;
+    overflow-x: hidden !important;
+}
+
+.ga{
+    background-image: url(../img/Hostel_Dormitory.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sr{
+    background-image: url(../img/Tel-Aviv-Hostel.jpg);
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4px;
+  
+}
+.z{
+    color: white;
+}
+.fa.hs {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

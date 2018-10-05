@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" >
+<html>
+<head>
+  <title>Dash board</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!--<link rel="style" href="css/bootstrap-theme.min.css"> 
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>-->
+  <link rel ="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet"href="css/project2.css">
+       <link rel="stylesheet"href="css/manta.css">
+     <link rel="stylesheet" href="css/dash.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <link rel="stylesheet" href="https://fontawesome.com/icons?d=gallery&q=dots">
+<link rel="stylesheet" href="register.html">
+    <link rel="stylesheet" href="login.html">
+     <link rel="stylesheet" href="dashadmin.html">
+      <style>
+    *
+{
+    font-family:serif;
+        }</style>
+</head>
+
+
+<body>
+ 
+
+ <body class="home">
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
+                
+                <div class="logo">
+                    <a hef="home.html">
+                        <p>Admin Dashboard</p>
+                    </a>
+                      <img src="admin3.png">
+                </div>
+                <div class="navi">
+                    <ul>
+                        <li ><a href="dashadmin.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Home</span></a></li>
+                           <li ><a href="personal1.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Services</span></a></li>
+                    
+                        <li><a href="acc.html" ><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Account details</span></a></li>
+                        <li><a href="personal.html"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">personal details</span></a></li>
+                        <li class="active"><a href="setting.html"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">account setting</span></a></li>
+                        <li><a href="login.html"><i class="fa fa-logout" aria-hidden="true"></i><span class="hidden-xs hidden-sm">log out</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <!--<button type="button" class="slide-toggle">Slide Toggle</button> -->
+                <div class="row">
+                    <header>
+                        <div class="col-md-7">
+                            <nav class="navbar-default pull-left">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas" data-target="#side-menu" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                            </nav>
+                           
+                        </div>
+                        <div class="col-md-5">
+                            <div class="header-rightside">
+                                <ul class="list-inline header-top ">
+                                    <li class="hidden-xs"><input type="search" placeholder="search">
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  
+</div></li>
+                                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                    <li>
+                                        <a href="#" class="icon-info">
+                                            <i class="fa fa-bell" aria-hidden="true"></i>
+                                            <span class="label label-primary">3</span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/user.jpg" alt="user">
+                                            <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="navbar-content">
+                                                    <span>User</span>
+                                                    <p class="text-muted small">
+                                                        xxx.xxx@gmail.com
+                                                    </p>
+                                                    <div class="divider">
+                                                    </div>
+                                                    <a href="main.html" class="view btn-sm active">View Profile</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                </div>    <div class="clearfix"> </div>            
+                
+                <div class="container">
+<form class="form-vertical">
+<fieldset>
+
+<!-- Form Name -->
+     <h3>
+			       your personal details
+			    </h3>
+			<table class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th>
+							s/no
+						</th>
+						<th>
+							Name
+						</th>
+						<th>
+							Date of Join
+						</th>
+						<th>
+						   hostel/ Area
+						</th>
+						<th>
+						     paid
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							1
+						</td>
+						<td>
+							Ram
+						</td>
+						<td>
+							03/05/2018
+						</td>
+						<td>
+				     			manjo hostel ameerpet
+						</td>
+						<td>
+						    3128.00
+						 </td>
+					</tr>
+					<tr class="active">
+						<td>
+							2
+						</td>
+						<td>
+							veru
+						</td>
+						<td>
+				              03/06/2018
+						</td>
+						<td>
+							manjo hostel ameerpet
+						</td>
+						<td>
+						     3128.50
+						 </td>
+					</tr>
+					<tr class="success">
+						<td>
+							3
+						</td>
+						<td>
+							kri
+						</td>
+						<td>
+						    13/07/2018
+						</td>
+						<td>
+							inku reddy hostel hitech city
+						</td>
+						<td>
+						    1188.50
+						 </td>
+					</tr>
+                    	</tbody>
+			<thead>
+					<tr>
+						<th>
+							s/no
+						</th>
+						<th>
+							ramu
+						</th>
+						<th>
+							30-08-2018
+						</th>
+						<th>
+						    Area
+						</th>
+						<th>
+						     paid
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="active">
+						<td>
+							1
+						</td>
+						<td>
+							nag
+						</td>
+						<td>
+							250
+						</td>
+						<td>
+				     			secunderabad
+						</td>
+						<td>
+						    13128.00
+						 </td>
+					</tr>
+                    	<tr class="success">
+						<td>
+							2
+						</td>
+						<td>
+							rama
+						</td>
+						<td>
+							150
+						</td>
+						<td>
+				     			begumpet
+						</td>
+						<td>
+						    9128.00
+						 </td>
+					</tr>
+				</tbody>
+                
+                	<thead>
+					<tr class="active">
+						<th>
+							s/no
+						</th>
+						<th>
+							arj
+						</th>
+						<th>
+							medicen name
+						</th>
+						<th>
+						       delevery Area
+						</th>
+						<th>
+						     paid
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr >
+						<td>
+							1
+						</td>
+						<td>
+							rai
+						</td>
+						<td>
+							9-09-2018
+						</td>
+						<td>
+				     			secunderabad
+						</td>
+						<td>
+						    128.00
+						 </td>
+					</tr>
+                    	<tr class="success">
+						<td>
+							2
+						</td>
+						<td>
+							Nani
+						</td>
+						<td>
+							9-09-2018
+						</td>
+						<td>
+				     			begumpet
+						</td>
+						<td>
+						    918.00
+						 </td>
+					</tr>
+				</tbody>
+                
+                
+                
+			</table>
+            </div>
+           
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                </body>
+                
+                             <script>
+$(document).ready(function(){
+   $('[data-toggle="offcanvas"]').click(function(){
+       $("#navigation").toggleClass("hidden-xs");
+   });
+});
+</script>
+    
+    </body></html>

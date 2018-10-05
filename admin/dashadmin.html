@@ -1,0 +1,297 @@
+<html>
+<head>
+  <title>Dash board</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!--<link rel="style" href="css/bootstrap-theme.min.css"> 
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>-->
+  <link rel ="stylesheet" href="css/bootstrap.min.css"> 
+    
+    
+    <link rel="stylesheet"href="css/dash.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <link rel="stylesheet" href="https://fontawesome.com/icons?d=gallery&q=dots">
+<link rel="stylesheet" href="register.html">
+    <link rel="stylesheet" href="login.html">
+     <link rel="stylesheet" href="dashadmin.html">
+    
+</head>
+
+
+<body>
+ 
+
+
+<body class="home">
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
+                <div class="logo">
+                    <a hef="#">
+                        <p>Admin Dashboard</p>
+                    </a>
+                    <img src="admin3.png">
+                </div>
+                <div class="navi">
+                    
+                        <li class="active"><a href="dashadmin.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Home</span></a></li>
+                             <li class="active"><a href="personal1.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Services</span></a></li>
+                    
+                        <li><a href="acc.html"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Account details</span></a></li>
+                        <li><a href="personal.html"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">personal details</span></a></li>
+                        <li><a href="setting.html"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">account setting</span></a></li>
+                        <li><a href="login.html"><i class="fa fa-" aria-hidden="true"></i><span class="hidden-xs hidden-sm">log out</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <!--<button type="button" class="slide-toggle">Slide Toggle</button> -->
+                <div class="row">
+                    <header>
+                        <div class="col-md-7">
+                            <nav class="navbar-default pull-left">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas" data-target="#side-menu" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                            </nav>
+                           
+                        </div>
+                        <div class="col-md-5">
+                            <div class="header-rightside">
+                                <ul class="list-inline header-top pull-right">
+                                        <li class="hidden-xs"><input type="search" placeholder="search">
+
+<div id="myModal" class="modal fade" role="dialog">
+ 
+</div></li> <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                  <li>
+                                        <a href="#" class="icon-info">
+                                            <i class="fa fa-bell" aria-hidden="true"></i>
+                                            <span class="label label-primary">9</span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/user.jpg" alt="Admin">
+                                            <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="navbar-content">
+                                                    <span>Admin Name</span>
+                                                    <p class="text-muted small">
+                                                        xxx.xxxx@gmail.com
+                                                    </p>
+                                                    <div class="divider">
+                                                    </div>
+                                                    <a href="#" class="view btn-sm active">View Profile</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                </div>    <div class="clearfix"> </div>
+    <div class="container ga">
+    
+                           <section>
+        <div class="container-fluid raj">
+  
+    
+            <center><h1 style="color:black;font-family:monospace;">Welcome To Le Foyer Hostels</h1></center>
+    
+           <div class="row">
+                        <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><b>Recent Booking </b><span class="caret"></span></a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapse1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                            <div>
+                                                    <table class="table table-stripped">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>No</th>
+                                                                <th>Name</th>
+                                                                <th>Check In</th>
+                                                                <th>Check Out</th>
+                                                                <th>Status</th>
+                                                                <th>Phone</th>
+                                                                <th>Room Type</th>
+                                                                <th>Edit</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <td>1</td>
+                                                            <td>Krish</td>
+                                                            <td>15-08-2018</td>
+                                                            <td>9-09-2018</td>
+                                                            <td><p class="btn btn-default btn-sm">Paid</p></td>
+                                                            <td>7876456686</td>
+                                                            <td>2 Sharing</td>
+                                                            <td><a href="#">Edit/Delete</a></td>
+                                                        </tbody>
+                                                        <tbody>
+                                                                <td>2</td>
+                                                                <td>Mark Hay</td>
+                                                                <td>24-08-2018</td>
+                                                                <td>9-09-2018</td>
+                                                                <td><p class="btn btn-default btn-sm">Paid</p></td>
+                                                                <td>8986789098</td>
+                                                                <td>2 Sharing</td>
+                                                                <td><a href="#">Edit/Delete</a></td>
+                                                            </tbody>
+                                                            <tbody>
+                                                                    <td>3</td>
+                                                                    <td>Jens Brincker</td>
+                                                                    <td>24-08-2018</td>
+                                                                    <td>9-09-2018</td>
+                                                                    <td><p class="btn btn-default btn-sm">Paid</p></td>
+                                                                    <td>9345676589</td>
+                                                                    <td>1 Sharing</td>
+                                                                    <td><a href="#">Edit/Delete</a></td>
+                                                                </tbody>
+                                                            <tbody>
+                                                                    <td>4</td>
+                                                                    <td>Mark Hay</td>
+                                                                    <td>24-08-2018</td>
+                                                                    <td>9-09-2018</td>
+                                                                    <td><p class="btn btn-default btn-sm">Paid</p></td>
+                                                                    <td>90897689098</td>
+                                                                    <td>2 Sharing</td>
+                                                                    <td><a href="#">Edit/Delete</a></td>
+                                                                </tbody>
+                                        
+                                    
+                                                    </table>
+                                                </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                              </div> 
+                        </div>
+            </div>
+        </div>
+<!--dashboard ending-->
+
+<!--email-->
+<div id="inbox" class="tab-pane fade">
+      <div class="row container panel">
+            <table class="table table-stripped">                    
+                    <tbody>
+                        <td><input type="checkbox"></td>
+                        <td>Rajesh</td>
+                        <td>Light</td>
+                        <td>Not working Properly.</td>
+                        <td>1 Sharing</td>
+                        <td>10:27 AM</td>
+                        
+                    </tbody>
+                    <tbody>
+                            <td>2</td>
+                            <td>Raj</td>
+                            <td>24-08-2018</td>
+                            <td>-</td>
+                            <td><p class="btn btn-warning btn-sm">PENDING</p></td>
+                            <td>9123745569</td>
+                            <td>2 Sharing</td>
+                            <td><a href="#">Edit/Delete</a></td>
+                        </tbody>
+                        <tbody>
+                                <td>3</td>
+                                <td>Nag</td>
+                                <td>24-08-2018</td>
+                                <td>-</td>
+                                <td><p class="btn btn-danger btn-sm">PAID</p></td>
+                                <td>9123745569</td>
+                                <td>1 Sharing</td>
+                                <td><a href="#">Edit/Delete</a></td>
+                            </tbody>
+                        <tbody>
+                                <td>4</td>
+                                <td>Rakhi</td>
+                                <td>24-08-2018</td>
+                                <td>9-09-2018</td>
+                                <td><p class="btn btn-info btn-sm">CHECK OUT</p></td>
+                                <td>9123745569</td>
+                                <td>3 Sharing</td>
+                                <td><a href="#">Edit/Delete</a></td>
+                            </tbody>
+    
+
+                </table>
+      </div> 
+</div>
+<!--emails ending-->
+
+<!--inbox-->
+<div id="inbox" class="tab-pane fade ">
+
+</div>
+<!--inbox ending-->
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--side menu ending-->
+
+<!-- Modal -->
+<div id="add_project" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header login-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Request / Complaint</h4>
+            </div>
+            <div class="modal-body">
+                        <input type="text" placeholder="Your Name" name="name">
+                        <input type="text" placeholder="Request / Complaint" name="mail">                           
+                        <textarea placeholder="Desicrption"></textarea>
+                </div>
+            <div class="modal-footer">
+                <button type="button" class="cancel" data-dismiss="modal">Close</button>
+                <button type="button" class="add-project" data-dismiss="modal">Send</button>
+            </div>
+        </div>
+
+    </div>
+</div>  
+        
+    
+    </div>
+    
+    </section>
+    
+    
+   
+    <br>
+        <br>
+    
+    
+    
+    
+    
+      <script>
+$(document).ready(function(){
+   $('[data-toggle="offcanvas"]').click(function(){
+       $("#navigation").toggleClass("hidden-xs");
+   });
+});
+</script>
